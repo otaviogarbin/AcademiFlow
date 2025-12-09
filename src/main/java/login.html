@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcademiFlow - Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+<header class="top-bar">
+    <a href="creditos.html" class="btn-creditos">Créditos</a>
+</header>
+
+<div class="login-container">
+    <div class="login-box">
+        <h1>AcademiFlow</h1>
+        <p class="subtitle">LAGUNA SCHOOL</p>
+        <p class="description">Plataforma de Gerenciamento de Atividades Acadêmicas</p>
+
+        <form method="POST" action="/login">
+            <div class="form-group">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+
+            <div class="form-group">
+                <label>Tipo de Acesso</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="tipo" value="professor" required>
+                        <span>Professor</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="tipo" value="aluno" required>
+                        <span>Aluno</span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-login">Entrar</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
