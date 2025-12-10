@@ -183,6 +183,7 @@ public class Servidor {
         html.append("<div class=\"header\">");
         html.append("<h1>AcademiFlow - Professor</h1>");
         html.append("<p>Bem-vindo, <strong>").append(usuario).append("</strong></p>");
+        html.append("<a href=\"/\"><button>Sair</button></a>");
         html.append("</div>");
 
         // Formulário de cadastro
@@ -345,6 +346,7 @@ public class Servidor {
         html.append("<div class=\"header\">");
         html.append("<h1>AcademiFlow - Aluno</h1>");
         html.append("<p>Bem-vindo, <strong>").append(usuario).append("</strong></p>");
+        html.append("<a href=\"/\"><button>Sair</button></a>");
         html.append("</div>");
 
         html.append("<div class=\"container\">");
