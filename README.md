@@ -1,12 +1,9 @@
----
-
 # 🎓 AcademiFlow — Sistema de Atividades Escolares
 
 ![Status](https://img.shields.io/badge/Status-Ativo-brightgreen?style=for-the-badge)
 ![Versão](https://img.shields.io/badge/Versão-1.0-blue?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-11+-red?style=for-the-badge\&logo=java)
+![Java](https://img.shields.io/badge/Java--red?style=for-the-badge\&logo=java)
 ![Maven](https://img.shields.io/badge/Maven-Build-orange?style=for-the-badge\&logo=apachemaven)
-![Licença](https://img.shields.io/badge/Licença-Livre-success?style=for-the-badge)
 ![Plataforma](https://img.shields.io/badge/Plataforma-Web-9cf?style=for-the-badge)
 
 ---
@@ -60,7 +57,7 @@ BANCO DE DADOS SQLite
 
 | Tecnologia     | Descrição            |
 | -------------- | -------------------- |
-| **Java 11+**   | Backend do sistema   |
+| **Java**   | Backend do sistema   |
 | **Maven**      | Build e dependências |
 | **HTML/CSS**   | Interface            |
 | **SQLite**     | Banco de dados       |
